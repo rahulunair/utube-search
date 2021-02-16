@@ -2,6 +2,7 @@
 
 An async API and a cli tool to search youtube (without using the data API.)
 
+[![asciicast](https://asciinema.org/a/GfXr5ymgna1pCeoLVyvZp20oz.svg)](https://asciinema.org/a/GfXr5ymgna1pCeoLVyvZp20oz)
 
 ## install
 
