@@ -23,7 +23,8 @@ class YtSearch:
     def __init__(self, query, cache=True):
         self.query = query
         self.cache = cache
-        self.fname = Path(f"{query}.json")
+        self.cache_dir = Path.home() / ".utube_search"
+        self.fname = self.cache_dir / Path(f"{query}.json")
         self.query_results = []
 
     async def _download_page(self):
