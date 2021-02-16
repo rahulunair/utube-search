@@ -1,6 +1,6 @@
 ## youtube_search
 
-An async API and a cli tool to search youtube (without using the data API.)
+An fast async API and a cli tool to search youtube (without using the data API) with optional caching.
 
 [![asciicast](https://asciinema.org/a/GfXr5ymgna1pCeoLVyvZp20oz.svg)](https://asciinema.org/a/GfXr5ymgna1pCeoLVyvZp20oz)
 
