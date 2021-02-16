@@ -14,7 +14,7 @@ pip install utube-search
 The package has a simple cli, which has one subcommand `search`:
 
 ```bash
-Usage: utube COMMAND <query>..
+Usage: utube COMMAND <query>
 Commands:
   info    information about the tool.
   search  search for videos with query on youtube.
