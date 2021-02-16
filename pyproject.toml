@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "utube-search"
+version = "0.1.0"
+description = "An async API and a cli tool to search youtube."
+authors = ["unrahul <rahulunair@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiohttp = "^3.7.3"
+cchardet = "^2.1.7"
+aiodns = "^2.0.0"
+typer = "^0.3.2"
+uvloop = "^0.15.0"
+aiofiles = "^0.6.0"
+python-rapidjson = "^1.0"
+rich = "^9.11.0"
+
+[tool.poetry.scripts]
+utube = "utube_search.cli:app"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
