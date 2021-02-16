@@ -9,7 +9,7 @@ An async API and a cli tool to search youtube (without using the data API.)
 pip install utube-search
 ```
 
-## Usage:
+## usage:
 
 The package has a simple cli, which has one subcommand `search`:
 
@@ -20,13 +20,15 @@ Commands:
   search  search for videos with query on youtube.
 ```
 
-## Example
+## example
+
+### command
 
 ```bash
 utube search blackholes
 ```
 
-output:
+### output:
 
 ```bash
 searching for videos using query: blackholes...
