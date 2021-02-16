@@ -1,4 +1,4 @@
-"""cli to github peek."""
+"""cli to utube-search."""
 
 from rich import print as rprint
 from rich.console import Console
